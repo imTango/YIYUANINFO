@@ -1,0 +1,537 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BF29DB8B1F5ED1D00069BEAD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BF29DB8A1F5ED1D00069BEAD /* main.m */; };
+		BF29DB8E1F5ED1D00069BEAD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BF29DB8D1F5ED1D00069BEAD /* AppDelegate.m */; };
+		BF29DB911F5ED1D00069BEAD /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BF29DB901F5ED1D00069BEAD /* ViewController.m */; };
+		BF29DB941F5ED1D00069BEAD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF29DB921F5ED1D00069BEAD /* Main.storyboard */; };
+		BF29DB961F5ED1D00069BEAD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BF29DB951F5ED1D00069BEAD /* Assets.xcassets */; };
+		BF29DB991F5ED1D00069BEAD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF29DB971F5ED1D00069BEAD /* LaunchScreen.storyboard */; };
+		BF29DBA41F5ED1D00069BEAD /* YIYUANINFOTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BF29DBA31F5ED1D00069BEAD /* YIYUANINFOTests.m */; };
+		BF29DBAF1F5ED1D00069BEAD /* YIYUANINFOUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = BF29DBAE1F5ED1D00069BEAD /* YIYUANINFOUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BF29DBA01F5ED1D00069BEAD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BF29DB7E1F5ED1D00069BEAD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BF29DB851F5ED1D00069BEAD;
+			remoteInfo = YIYUANINFO;
+		};
+		BF29DBAB1F5ED1D00069BEAD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BF29DB7E1F5ED1D00069BEAD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BF29DB851F5ED1D00069BEAD;
+			remoteInfo = YIYUANINFO;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BF29DB861F5ED1D00069BEAD /* YIYUANINFO.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YIYUANINFO.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF29DB8A1F5ED1D00069BEAD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BF29DB8C1F5ED1D00069BEAD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		BF29DB8D1F5ED1D00069BEAD /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		BF29DB8F1F5ED1D00069BEAD /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		BF29DB901F5ED1D00069BEAD /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		BF29DB931F5ED1D00069BEAD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BF29DB951F5ED1D00069BEAD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BF29DB981F5ED1D00069BEAD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BF29DB9A1F5ED1D00069BEAD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BF29DB9F1F5ED1D00069BEAD /* YIYUANINFOTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YIYUANINFOTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF29DBA31F5ED1D00069BEAD /* YIYUANINFOTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YIYUANINFOTests.m; sourceTree = "<group>"; };
+		BF29DBA51F5ED1D00069BEAD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BF29DBAA1F5ED1D00069BEAD /* YIYUANINFOUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YIYUANINFOUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF29DBAE1F5ED1D00069BEAD /* YIYUANINFOUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YIYUANINFOUITests.m; sourceTree = "<group>"; };
+		BF29DBB01F5ED1D00069BEAD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BF29DB831F5ED1D00069BEAD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF29DB9C1F5ED1D00069BEAD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF29DBA71F5ED1D00069BEAD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BF29DB7D1F5ED1D00069BEAD = {
+			isa = PBXGroup;
+			children = (
+				BF29DB881F5ED1D00069BEAD /* YIYUANINFO */,
+				BF29DBA21F5ED1D00069BEAD /* YIYUANINFOTests */,
+				BF29DBAD1F5ED1D00069BEAD /* YIYUANINFOUITests */,
+				BF29DB871F5ED1D00069BEAD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BF29DB871F5ED1D00069BEAD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BF29DB861F5ED1D00069BEAD /* YIYUANINFO.app */,
+				BF29DB9F1F5ED1D00069BEAD /* YIYUANINFOTests.xctest */,
+				BF29DBAA1F5ED1D00069BEAD /* YIYUANINFOUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BF29DB881F5ED1D00069BEAD /* YIYUANINFO */ = {
+			isa = PBXGroup;
+			children = (
+				BF29DB8C1F5ED1D00069BEAD /* AppDelegate.h */,
+				BF29DB8D1F5ED1D00069BEAD /* AppDelegate.m */,
+				BF29DB8F1F5ED1D00069BEAD /* ViewController.h */,
+				BF29DB901F5ED1D00069BEAD /* ViewController.m */,
+				BF29DB921F5ED1D00069BEAD /* Main.storyboard */,
+				BF29DB951F5ED1D00069BEAD /* Assets.xcassets */,
+				BF29DB971F5ED1D00069BEAD /* LaunchScreen.storyboard */,
+				BF29DB9A1F5ED1D00069BEAD /* Info.plist */,
+				BF29DB891F5ED1D00069BEAD /* Supporting Files */,
+			);
+			path = YIYUANINFO;
+			sourceTree = "<group>";
+		};
+		BF29DB891F5ED1D00069BEAD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BF29DB8A1F5ED1D00069BEAD /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BF29DBA21F5ED1D00069BEAD /* YIYUANINFOTests */ = {
+			isa = PBXGroup;
+			children = (
+				BF29DBA31F5ED1D00069BEAD /* YIYUANINFOTests.m */,
+				BF29DBA51F5ED1D00069BEAD /* Info.plist */,
+			);
+			path = YIYUANINFOTests;
+			sourceTree = "<group>";
+		};
+		BF29DBAD1F5ED1D00069BEAD /* YIYUANINFOUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BF29DBAE1F5ED1D00069BEAD /* YIYUANINFOUITests.m */,
+				BF29DBB01F5ED1D00069BEAD /* Info.plist */,
+			);
+			path = YIYUANINFOUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BF29DB851F5ED1D00069BEAD /* YIYUANINFO */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BF29DBB31F5ED1D00069BEAD /* Build configuration list for PBXNativeTarget "YIYUANINFO" */;
+			buildPhases = (
+				BF29DB821F5ED1D00069BEAD /* Sources */,
+				BF29DB831F5ED1D00069BEAD /* Frameworks */,
+				BF29DB841F5ED1D00069BEAD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YIYUANINFO;
+			productName = YIYUANINFO;
+			productReference = BF29DB861F5ED1D00069BEAD /* YIYUANINFO.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BF29DB9E1F5ED1D00069BEAD /* YIYUANINFOTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BF29DBB61F5ED1D00069BEAD /* Build configuration list for PBXNativeTarget "YIYUANINFOTests" */;
+			buildPhases = (
+				BF29DB9B1F5ED1D00069BEAD /* Sources */,
+				BF29DB9C1F5ED1D00069BEAD /* Frameworks */,
+				BF29DB9D1F5ED1D00069BEAD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BF29DBA11F5ED1D00069BEAD /* PBXTargetDependency */,
+			);
+			name = YIYUANINFOTests;
+			productName = YIYUANINFOTests;
+			productReference = BF29DB9F1F5ED1D00069BEAD /* YIYUANINFOTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BF29DBA91F5ED1D00069BEAD /* YIYUANINFOUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BF29DBB91F5ED1D00069BEAD /* Build configuration list for PBXNativeTarget "YIYUANINFOUITests" */;
+			buildPhases = (
+				BF29DBA61F5ED1D00069BEAD /* Sources */,
+				BF29DBA71F5ED1D00069BEAD /* Frameworks */,
+				BF29DBA81F5ED1D00069BEAD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BF29DBAC1F5ED1D00069BEAD /* PBXTargetDependency */,
+			);
+			name = YIYUANINFOUITests;
+			productName = YIYUANINFOUITests;
+			productReference = BF29DBAA1F5ED1D00069BEAD /* YIYUANINFOUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BF29DB7E1F5ED1D00069BEAD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = "北京京壹元资讯信息服务有限公司";
+				TargetAttributes = {
+					BF29DB851F5ED1D00069BEAD = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = JFJYGYVL3B;
+						ProvisioningStyle = Automatic;
+					};
+					BF29DB9E1F5ED1D00069BEAD = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = JFJYGYVL3B;
+						ProvisioningStyle = Automatic;
+						TestTargetID = BF29DB851F5ED1D00069BEAD;
+					};
+					BF29DBA91F5ED1D00069BEAD = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = JFJYGYVL3B;
+						ProvisioningStyle = Automatic;
+						TestTargetID = BF29DB851F5ED1D00069BEAD;
+					};
+				};
+			};
+			buildConfigurationList = BF29DB811F5ED1D00069BEAD /* Build configuration list for PBXProject "YIYUANINFO" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BF29DB7D1F5ED1D00069BEAD;
+			productRefGroup = BF29DB871F5ED1D00069BEAD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BF29DB851F5ED1D00069BEAD /* YIYUANINFO */,
+				BF29DB9E1F5ED1D00069BEAD /* YIYUANINFOTests */,
+				BF29DBA91F5ED1D00069BEAD /* YIYUANINFOUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BF29DB841F5ED1D00069BEAD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF29DB991F5ED1D00069BEAD /* LaunchScreen.storyboard in Resources */,
+				BF29DB961F5ED1D00069BEAD /* Assets.xcassets in Resources */,
+				BF29DB941F5ED1D00069BEAD /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF29DB9D1F5ED1D00069BEAD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF29DBA81F5ED1D00069BEAD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BF29DB821F5ED1D00069BEAD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF29DB911F5ED1D00069BEAD /* ViewController.m in Sources */,
+				BF29DB8E1F5ED1D00069BEAD /* AppDelegate.m in Sources */,
+				BF29DB8B1F5ED1D00069BEAD /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF29DB9B1F5ED1D00069BEAD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF29DBA41F5ED1D00069BEAD /* YIYUANINFOTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF29DBA61F5ED1D00069BEAD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF29DBAF1F5ED1D00069BEAD /* YIYUANINFOUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BF29DBA11F5ED1D00069BEAD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BF29DB851F5ED1D00069BEAD /* YIYUANINFO */;
+			targetProxy = BF29DBA01F5ED1D00069BEAD /* PBXContainerItemProxy */;
+		};
+		BF29DBAC1F5ED1D00069BEAD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BF29DB851F5ED1D00069BEAD /* YIYUANINFO */;
+			targetProxy = BF29DBAB1F5ED1D00069BEAD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BF29DB921F5ED1D00069BEAD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BF29DB931F5ED1D00069BEAD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BF29DB971F5ED1D00069BEAD /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BF29DB981F5ED1D00069BEAD /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BF29DBB11F5ED1D00069BEAD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		BF29DBB21F5ED1D00069BEAD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BF29DBB41F5ED1D00069BEAD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = JFJYGYVL3B;
+				INFOPLIST_FILE = YIYUANINFO/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yyinfo.YIYUANINFO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		BF29DBB51F5ED1D00069BEAD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = JFJYGYVL3B;
+				INFOPLIST_FILE = YIYUANINFO/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yyinfo.YIYUANINFO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		BF29DBB71F5ED1D00069BEAD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = JFJYGYVL3B;
+				INFOPLIST_FILE = YIYUANINFOTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yyinfo.YIYUANINFOTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YIYUANINFO.app/YIYUANINFO";
+			};
+			name = Debug;
+		};
+		BF29DBB81F5ED1D00069BEAD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = JFJYGYVL3B;
+				INFOPLIST_FILE = YIYUANINFOTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yyinfo.YIYUANINFOTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YIYUANINFO.app/YIYUANINFO";
+			};
+			name = Release;
+		};
+		BF29DBBA1F5ED1D00069BEAD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = JFJYGYVL3B;
+				INFOPLIST_FILE = YIYUANINFOUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yyinfo.YIYUANINFOUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = YIYUANINFO;
+			};
+			name = Debug;
+		};
+		BF29DBBB1F5ED1D00069BEAD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = JFJYGYVL3B;
+				INFOPLIST_FILE = YIYUANINFOUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yyinfo.YIYUANINFOUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = YIYUANINFO;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BF29DB811F5ED1D00069BEAD /* Build configuration list for PBXProject "YIYUANINFO" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF29DBB11F5ED1D00069BEAD /* Debug */,
+				BF29DBB21F5ED1D00069BEAD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BF29DBB31F5ED1D00069BEAD /* Build configuration list for PBXNativeTarget "YIYUANINFO" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF29DBB41F5ED1D00069BEAD /* Debug */,
+				BF29DBB51F5ED1D00069BEAD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		BF29DBB61F5ED1D00069BEAD /* Build configuration list for PBXNativeTarget "YIYUANINFOTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF29DBB71F5ED1D00069BEAD /* Debug */,
+				BF29DBB81F5ED1D00069BEAD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		BF29DBB91F5ED1D00069BEAD /* Build configuration list for PBXNativeTarget "YIYUANINFOUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF29DBBA1F5ED1D00069BEAD /* Debug */,
+				BF29DBBB1F5ED1D00069BEAD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BF29DB7E1F5ED1D00069BEAD /* Project object */;
+}
